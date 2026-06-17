@@ -6,21 +6,6 @@ This repository contains an analytics pipeline and performance dashboard for Air
 
 The project focuses on transforming raw data into a production-ready analytics model and visualization layer that supports decision-making for growth, pricing, and trust metrics.
 
-## Architecture
-
-- Source data: Airbnb listings and reviews
-- ETL flow: ingest → clean → normalize → aggregate
-- Analytics layer: KPI generation, trend analysis, segmentation
-- Dashboard layer: business metrics, city performance, pricing heatmaps, trust indicators
-
-## Technology Stack
-
-- Python 3.x
-- pandas for data transformation and feature engineering
-- numpy for statistical aggregation
-- Jupyter / Python scripts for analysis workflows
-- Power BI or Tableau for dashboard visualization
-
 ## Data Model
 
 The model is built on three core entity sets:
@@ -99,6 +84,4 @@ This dashboard enables stakeholders to:
 - Add geospatial clustering for location-based analysis
 - Integrate streaming or real-time data sources for live dashboards
 
-## Notes
 
-This README is intended for technical stakeholders and analytics practitioners evaluating the Airbnb performance dashboard architecture and application workflow.
